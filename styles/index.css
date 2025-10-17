@@ -8,6 +8,9 @@
 }
 
 /*Nav styles*/
+.secondart-bg{
+    background-color: #FFF8F3;
+}
 nav{
     display: flex;
     align-items: center;
@@ -43,10 +46,17 @@ nav li a{
     padding: 18px 35px;
     border-radius: 5px;
     border: none;
+    
 }
 nav ul li{
     list-style: none;
     margin-right: 50px
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
 }
 /*header*/
 
@@ -69,6 +79,7 @@ nav ul li{
 .banner-greetings{
     font-size: 45px;
     font-weight: 600;
+    
 
 }
 .banner-title{
@@ -79,6 +90,30 @@ nav ul li{
 .banner-pic{
     width: 580px;
 }
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .banner-description{
     color: #757575;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.section-description{
+    color: #757575;
+}
+.item-title{
+    color: #757575;
+}
+.item-description{
+    font-weight: 600;
+    color: #757575;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
